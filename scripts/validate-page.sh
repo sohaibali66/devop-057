@@ -11,7 +11,7 @@ pass() {
 }
 
 [ -f index.html ] || fail "index.html is missing"
-pass "index.html exists"
+fail "Intentional test failure for assignment evidence"
 
 [ -f style.css ] || fail "style.css is missing"
 pass "style.css exists"
